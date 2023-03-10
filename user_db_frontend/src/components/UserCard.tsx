@@ -9,7 +9,7 @@ const UserCard = ({ user }: any) => {
   console.log(addresses);
 
   return (
-    <Flex justifyContent={"space-between"} border={'1px solid lightgray'} borderRadius={5} p={5} shadow={'sm'} direction={'column'}>
+    <Flex justifyContent={'space-between'} border={'1px solid lightgray'} borderRadius={5} p={5} shadow={'sm'} direction={'column'}>
       <Heading mb={2} fontSize={'xl'} as={'h2'}>
         {user.name}
       </Heading>
@@ -25,7 +25,7 @@ const UserCard = ({ user }: any) => {
         {addresses.map((address: any) => (
           <Flex direction={'column'} key={address.id}>
             <Text mb={2}>
-              Address: {address.street} {address.streetNo}
+              {address.street} {address.streetNo}
             </Text>
           </Flex>
         ))}
