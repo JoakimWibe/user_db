@@ -1,0 +1,7 @@
+.header {
+  width: 100%;
+  background: cadetblue;
+  color: white;
+  position: fixed;
+  padding: 1rem;
+}

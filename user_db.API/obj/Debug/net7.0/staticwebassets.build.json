@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "X3xHFwFRBW55GRod82DC1WtxuaUvJy6PsRGjRRbHZKc=",
+  "Source": "user_db.API",
+  "BasePath": "_content/user_db.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
