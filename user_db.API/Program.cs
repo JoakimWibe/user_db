@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using user_db.API.Data;
 
 var  myAllowSpecificOrigins = "_myAllowSpecificOrigins";
 

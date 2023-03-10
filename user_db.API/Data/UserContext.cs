@@ -1,10 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Bogus;
 using Microsoft.EntityFrameworkCore;
 using user_db.API.Models;
+
+namespace user_db.API.Data;
 
 public class UserContext : DbContext
 {
@@ -33,7 +31,7 @@ public class UserContext : DbContext
             .RuleFor(m => m.City, f => f.Address.City())
             .RuleFor(m => m.Country, f => f.Address.Country())
             .RuleFor(m => m.UserId, f => f.Random.Number(ids));
-
+    
         // generate 100 items
         modelBuilder
             .Entity<User>()
